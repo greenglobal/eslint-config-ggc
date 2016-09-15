@@ -25,7 +25,7 @@ Then, create ESLint config file named ".eslintrc.json" (or edit if it exists). T
 
 That's all. It will works.
 
-Sometimes [the rules we shared](https://github.com/greenglobal/eslint-config-ggc/blob/master/.eslintrc.json) are not enough for you. Just add more or overwrite them with your own rules by modifying ".eslintrc.json". For example:
+Sometimes [the rules we shared](https://github.com/greenglobal/eslint-config-ggc/blob/master/.eslintrc.json) may be not enough for you. Just add more or overwrite them with your own rules by modifying ".eslintrc.json". For example:
 
 *.eslintrc.json*
 ```
@@ -57,6 +57,29 @@ Sometimes [the rules we shared](https://github.com/greenglobal/eslint-config-ggc
 }
 ```
 
+You will often want to add the commands to package.json, here is a sample:
+
+```
+{
+  "name": "sample",
+  "version": "0.0.1",
+  "description": "A sample for using eslint and eslint-config-ggc",
+  "engines": {
+    "node": ">= 6.0"
+  },
+  "scripts": {
+    "lint": "eslint ./src"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-ggc": "latest"
+  },
+  "license": "MIT"
+}
+
+```
+
+As you can see, we need 2 packages "eslint" and "eslint-config-ggc". After install them with "npm install", you can check your convention with "npm run lint" command.
 
 # References:
 
