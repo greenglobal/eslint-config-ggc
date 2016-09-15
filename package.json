@@ -1,0 +1,38 @@
+{
+  "name": "eslint-config-ggc",
+  "version": "1.2.0",
+  "description": "ESLint shareable config based on JavaScript convention at Green Global company",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/greenglobal/eslint-config-ggc"
+  },
+  "author": "@ndaidong",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 6.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint && tape test/start.js | tap-spec"
+  },
+  "devDependencies": {
+    "bellajs": "latest",
+    "eslint": "latest",
+    "tap-spec": "latest",
+    "tape": "latest"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    "ndaidong <ndaidong@gmail.com>"
+  ],
+  "bugs": {
+    "url": "https://github.com/greenglobal/eslint-config-ggc/issues"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
