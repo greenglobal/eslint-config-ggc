@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ggc",
-  "version": "1.2.2",
+  "version": "1.2.21",
   "description": "ESLint shareable config based on JavaScript convention at Green Global company",
   "repository": {
     "type": "git",
