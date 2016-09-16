@@ -63,6 +63,8 @@
         "ignoreUrls": true
       }
     ],
+    "max-lines": 0,
+    "max-params": ["error", 4],
     "max-statements": 0,
     "multiline-ternary": 0,
     "newline-after-var": 0,
@@ -71,8 +73,10 @@
     "no-console": 0,
     "no-inline-comments": 0,
     "no-magic-numbers": 0,
+    "no-mixed-operators": 0,
     "no-param-reassign": 0,
     "no-plusplus": 0,
+    "no-prototype-builtins": 0,
     "no-sync": 0,
     "no-ternary": 0,
     "no-underscore-dangle": 0,
