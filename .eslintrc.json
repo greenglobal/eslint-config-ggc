@@ -104,6 +104,7 @@
       "error", "never"
     ],
     "sort-keys": 0,
+    "sort-vars": 0,
     "vars-on-top": 0
   }
 }
