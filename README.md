@@ -79,7 +79,7 @@ You will often want to add the commands to package.json, here is a sample:
 
 ```
 
-As you can see, we need 2 packages "eslint" and "eslint-config-ggc". After install them with "npm install", you can check your convention with "npm run lint" command.
+As you can see, we need 2 packages "eslint" and "eslint-config-ggc". After installing them with "npm install", you can check your convention with "npm run lint" command.
 
 # References:
 
