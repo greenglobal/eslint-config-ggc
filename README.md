@@ -3,7 +3,7 @@ ESLint shareable config based on [Green Global's JavaScript Style Guide](https:/
 
 
 [![NPM](https://badge.fury.io/js/eslint-config-ggc.svg)](https://badge.fury.io/js/eslint-config-ggc)
-![Travis](https://travis-ci.org/greenglobal/eslint-config-ggc.svg?branch=master)
+[![Build Status](https://travis-ci.org/greenglobal/eslint-config-ggc.svg?branch=master)](https://travis-ci.org/greenglobal/eslint-config-ggc)
 
 
 # Usage
