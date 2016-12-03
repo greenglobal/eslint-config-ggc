@@ -43,6 +43,7 @@
   "rules": {
     "arrow-body-style": 0,
     "dot-location": 0,
+    "capitalized-comments": 0,
     "global-require": 0,
     "id-length": 0,
     "indent": [
