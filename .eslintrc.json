@@ -88,6 +88,7 @@
     "one-var": 0,
     "padded-blocks": 0,
     "prefer-const": 0,
+    "prefer-destructuring": 0,
     "prefer-reflect": 0,
     "prefer-template": 0,
     "quotes": [
