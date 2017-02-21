@@ -1,7 +1,8 @@
 /**
- * Starting app
+ * Load core
  * @ndaidong
 **/
 
-exports = module.exports = require('./.eslintrc');
-exports.version = require('./package').version;
+var main = require('./.eslintrc');
+main.version = require('./package').version;
+module.exports = main;
