@@ -41,6 +41,7 @@
   "extends": "eslint:all",
 
   "rules": {
+    "arrow-parens": 0,
     "arrow-body-style": 0,
     "dot-location": 0,
     "capitalized-comments": 0,
