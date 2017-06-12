@@ -38,15 +38,24 @@
 
   ],
 
-  "extends": "eslint:all",
+  "extends": "eslint:recommended",
 
   "rules": {
-    "arrow-parens": 0,
-    "arrow-body-style": 0,
-    "dot-location": 0,
-    "capitalized-comments": 0,
-    "global-require": 0,
-    "id-length": 0,
+    "arrow-spacing": [
+      "error",
+      {
+        "before": true,
+        "after": true
+      }
+    ],
+    "comma-spacing": [
+      "error",
+      {
+        "before": false,
+        "after": true
+      }
+    ],
+    "eqeqeq": "error",
     "indent": [
       "error",
       2,
@@ -54,8 +63,13 @@
         "SwitchCase": 1
       }
     ],
-    "init-declarations": 0,
-    "line-comment-position": 0,
+    "keyword-spacing": [
+      "error",
+      {
+        "before": true
+      }
+    ],
+    "max-depth": ["error", 4],
     "max-len": [
       "error",
       {
@@ -65,33 +79,20 @@
         "ignoreUrls": true
       }
     ],
-    "max-lines": 0,
+    "max-lines": [
+      "error",
+      {
+        "max": 500,
+        "skipBlankLines": true,
+        "skipComments": true
+      }
+    ],
+    "max-nested-callbacks": ["error", 3],
+    "no-array-constructor": "error",
+    "no-new-object": "error",
+    "no-new-wrappers": "error",
     "max-params": ["error", 4],
-    "max-statements": 0,
-    "multiline-ternary": 0,
-    "newline-after-var": 0,
-    "newline-before-return": 0,
-    "newline-per-chained-call": 0,
-    "no-console": 0,
-    "no-inline-comments": 0,
-    "no-magic-numbers": 0,
-    "no-mixed-operators": 0,
-    "no-param-reassign": 0,
-    "no-plusplus": 0,
-    "no-prototype-builtins": 0,
-    "no-sync": 0,
-    "no-ternary": 0,
-    "no-underscore-dangle": 0,
-    "no-var": 0,
-    "object-curly-newline": 0,
-    "object-curly-spacing": 2,
-    "object-property-newline": 0,
-    "one-var": 0,
-    "padded-blocks": 0,
-    "prefer-const": 0,
-    "prefer-destructuring": 0,
-    "prefer-reflect": 0,
-    "prefer-template": 0,
+    "no-trailing-spaces": "error",
     "quotes": [
       "error",
       "single",
@@ -102,13 +103,29 @@
     "quote-props": [
       "error", "as-needed"
     ],
-    "require-jsdoc": 0,
-    "space-before-function-paren": [
-      "error", "never"
+    "semi": ["error", "always"],
+    "semi-spacing": [
+      "error",
+      {
+        "before": false,
+        "after": true
+      }
     ],
-    "sort-imports": 0,
-    "sort-keys": 0,
-    "sort-vars": 0,
-    "vars-on-top": 0
+    "semi-style": ["error", "last"],
+    "space-before-blocks": ["error", "always"],
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "always",
+        "named": "never"
+      }
+    ],
+    "space-in-parens": ["error", "never"],
+    "space-infix-ops": [
+      "error",
+      {
+        "int32Hint": false
+      }
+    ]
   }
 }
