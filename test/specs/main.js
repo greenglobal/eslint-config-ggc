@@ -24,6 +24,6 @@ test('Testing Shareable Config  object:', (assert) => {
     return k;
   });
 
-  assert.equals(config.extends, 'eslint:all', `config.extends value must be "eslint:all"`);
+  assert.equals(config.extends, 'eslint:recommended', `config.extends value must be "eslint:recommended"`);
   assert.end();
 });
