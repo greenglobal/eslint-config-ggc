@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ggc",
-  "version": "1.3.4",
+  "version": "1.3.5",
   "description": "ESLint shareable config based on JavaScript convention at Green Global company",
   "repository": {
     "type": "git",
@@ -16,8 +16,8 @@
     "test": "npm run lint && tape test/start.js | tap-spec"
   },
   "devDependencies": {
-    "bellajs": "6.x.x",
-    "eslint": "3.x.x",
+    "bellajs": "7.x.x",
+    "eslint": "4.x.x",
     "tap-spec": "4.x.x",
     "tape": "4.x.x"
   },

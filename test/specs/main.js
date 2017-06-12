@@ -9,7 +9,6 @@ var bella = require('bellajs');
 var config = require('../../index');
 
 var structure = [
-  'version',
   'parserOptions',
   'env',
   'globals',
