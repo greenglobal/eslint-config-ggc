@@ -1,8 +1,5 @@
 /**
- * Load core
+ * Load rules
  * @ndaidong
 **/
-
-var main = require('./.eslintrc');
-main.version = require('./package').version;
-module.exports = main;
+module.exports = require('./.eslintrc.json');
